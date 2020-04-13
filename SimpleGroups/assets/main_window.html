@@ -1,0 +1,21 @@
+<html>
+	<body>
+	<div id="SG-main">
+		<div id="SG-main-content">
+			<div id="input">
+				<form>
+					<p>Set Name:</p>
+					<input type="text" id="setName" onChange="i2b2.SimpleGroups.updateSetName(id);">
+					<p>Set Concept Path:</p>
+					<input type="text" id="setPath" onChange="i2b2.SimpleGroups.updatePath(id);">
+					<p>List of Patient Ids:</p>
+					<textarea id="textfield" onChange="i2b2.SimpleGroups.updatePatientIds(id);"></textarea>
+				</form>
+				<span>
+					<button id="submit" onClick="i2b2.SimpleGroups.submit();">Submit</button>
+				</span>
+			</div>
+		</div>
+	</div>
+	</body>
+</html>

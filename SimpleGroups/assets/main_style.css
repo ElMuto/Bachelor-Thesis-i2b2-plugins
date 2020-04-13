@@ -1,0 +1,27 @@
+/*** CSS for background ***/
+
+DIV#SG-main {
+	background:#FFF;
+	height: 100%;
+}
+DIV#SG-main-content {
+	background:#FFF;
+	border:solid #63758C;
+	border-width:1px 0;
+	overflow:auto;
+	padding:10px 10px;
+	height: 100%;
+}
+
+/*** CSS for the content ***/
+
+#textfield {
+	width: 100%;
+	min-height: 50vh;
+}
+
+#setPath {
+	width: 100%;
+}
+
+
